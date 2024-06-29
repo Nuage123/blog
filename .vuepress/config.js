@@ -33,17 +33,17 @@ export default defineUserConfig({
         link: '/article/',
       },
       {
-        text: '分类',
+        text: '分类📚',
         link: '/category/',
       },
-      {
-        text: '标签',
-        link: '/tag/',
-      },
-      {
-        text: '时间线',
-        link: '/timeline/',
-      },
+      // {
+      //   text: '标签',
+      //   link: '/tag/',
+      // },
+      // {
+      //   text: '时间线',
+      //   link: '/timeline/',
+      // },
     ],
   }),
 

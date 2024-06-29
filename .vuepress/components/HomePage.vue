@@ -57,8 +57,8 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
   <style scoped>
 
 .page{
- position: relative;
- bottom: 150px;
+ /* position: relative; */
+/* ?bottom: 150px; */
 }
 
 .homeHeader{
