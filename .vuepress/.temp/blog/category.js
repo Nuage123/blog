@@ -1,0 +1,2 @@
+export const categoriesMap = {"category":{"/":{"path":"/category/","map":{"History":{"path":"/category/history/","indexes":[0,1]},"随想":{"path":"/category/%E9%9A%8F%E6%83%B3/","indexes":[2]},"CategoryC":{"path":"/category/categoryc/","indexes":[3]}}}},"tag":{"/":{"path":"/tag/","map":{"WWI":{"path":"/tag/wwi/","indexes":[1]},"WWII":{"path":"/tag/wwii/","indexes":[0]},"碎碎念":{"path":"/tag/%E7%A2%8E%E7%A2%8E%E5%BF%B5/","indexes":[2]},"tag E":{"path":"/tag/tag-e/","indexes":[3]}}}}};
+
