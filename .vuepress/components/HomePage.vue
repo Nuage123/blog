@@ -5,7 +5,7 @@
         <main class="page">
          
          <HomeHeader class="homeHeader"></HomeHeader>
-         <AboutMe></AboutMe>
+         <!-- <AboutMe></AboutMe> -->
          
         
         
@@ -25,7 +25,7 @@
 //  import Home from '@theme/Home.vue'
 // import Navbar from '@theme/Navbar.vue'
   import HomeHeader from './HomeHeader.vue'; 
-  import AboutMe from './AboutMe.vue';// Import the TypeWriter component
+  // import AboutMe from './AboutMe.vue';// Import the TypeWriter component
 //   import AboutMe from '@/components/AboutMe'
 import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
   export default {
@@ -34,7 +34,7 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
     components:{
       HomeHeader,
     ParentLayout,
-    AboutMe
+    // AboutMe
       
     //   AboutMe
   
@@ -62,7 +62,7 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 }
 
 .homeHeader{
-
+  margin-top: 5%;
   /* background-color: red; */
   /* margin: 0.1% auto; */
     /* position: relative; */

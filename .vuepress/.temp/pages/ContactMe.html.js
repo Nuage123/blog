@@ -1,0 +1,3 @@
+import comp from "D:/Develop/blog/vuepress-starter/docs/.vuepress/.temp/pages/ContactMe.html.vue"
+const data = JSON.parse("{\"path\":\"/ContactMe.html\",\"title\":\"\",\"lang\":\"ZH-cn\",\"frontmatter\":{\"sidebar\":false},\"headers\":[{\"level\":2,\"title\":\"欢迎联系：\",\"slug\":\"欢迎联系\",\"link\":\"#欢迎联系\",\"children\":[{\"level\":3,\"title\":\"邮箱\",\"slug\":\"邮箱\",\"link\":\"#邮箱\",\"children\":[]},{\"level\":3,\"title\":\"微信\",\"slug\":\"微信\",\"link\":\"#微信\",\"children\":[]}]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"ContactMe.md\",\"excerpt\":\"<h2>欢迎联系：</h2>\\n<h3>邮箱</h3>\\n<p>745402527@qq.com</p>\\n<h3>微信</h3>\\n<p>y_m990415</p>\\n<footer class=\\\"footer\\\"> © Nuage</footer>\"}")
+export { comp, data }

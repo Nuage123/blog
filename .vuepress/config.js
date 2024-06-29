@@ -2,32 +2,32 @@ import { blogPlugin } from '@vuepress/plugin-blog'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
-
 import  {path}  from '@vuepress/utils'
-// import VueTyperPlugin from 'vue-typer'
-// Vue.use(VueTyperPlugin)
-// import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
-// const path = require("path");
-// const  registerComponentsPlugin = ('@vuepress/plugin-register-components')
 
-// const localTheme = require('./theme')
 export default defineUserConfig({
   lang: 'ZH-cn',
   
 
-  title: '我的空间',
+  title: 'My Blog',
   description: 'My first VuePress Site',
   base:"/blog/",
   // dest:"dist",
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/images/微信图片_20240627183836.jpg',
 
     navbar: [
       {
         text: '首页🏠',
         link: '/',
       },
-      
+      {
+        text:'关于我👧',
+        link:'/AboutPage'
+      },
+      {
+        text:'项目💻',
+        link:'/Projects'
+      },
       {
         text: '文章📓',
         link: '/article/',
@@ -36,6 +36,10 @@ export default defineUserConfig({
         text: '分类📚',
         link: '/category/',
       },
+      {
+        text:"📞联系我",
+        link:"/ContactMe"
+      }
       // {
       //   text: '标签',
       //   link: '/tag/',
@@ -46,6 +50,9 @@ export default defineUserConfig({
       // },
     ],
   }),
+
+
+
 
   plugins: [
   '@vuepress/plugin-register-components',
@@ -93,23 +100,25 @@ export default defineUserConfig({
             sidebar: false,
           }),
         },
-        {
-          key: 'tag',
-          getter: (page) => page.frontmatter.tag || [],
-          layout: 'Tag',
-          itemLayout: 'Tag',
-          frontmatter: () => ({
-            title: 'Tags',
-            sidebar: false,
-          }),
-          itemFrontmatter: (name) => ({
-            title: `Tag ${name}`,
-            sidebar: false,
-          }),
-        },
+     
+        // {
+        //   key: 'tag',
+        //   getter: (page) => page.frontmatter.tag || [],
+        //   layout: 'Tag',
+        //   itemLayout: 'Tag',
+        //   frontmatter: () => ({
+        //     title: 'Tags',
+        //     sidebar: false,
+        //   }),
+        //   itemFrontmatter: (name) => ({
+        //     title: `Tag ${name}`,
+        //     sidebar: false,
+        //   }),
+        // },
       ],
 
       type: [
+      
         {
           key: 'article',
           // Remove archive articles
@@ -137,20 +146,23 @@ export default defineUserConfig({
             )
           },
         },
-        {
-          key: 'timeline',
-          // Only article with date should be added to timeline
-          filter: (page) => page.frontmatter.date instanceof Date,
-          // Sort  with time
-          sorter: (pageA, pageB) =>
-            new Date(pageB.frontmatter.date).getTime() -
-            new Date(pageA.frontmatter.date).getTime(),
-          layout: 'Timeline',
-          frontmatter: () => ({
-            title: 'Timeline',
-            sidebar: false,
-          }),
-        },
+
+ 
+        
+        // {
+        //   key: 'timeline',
+        //   // Only article with date should be added to timeline
+        //   filter: (page) => page.frontmatter.date instanceof Date,
+        //   // Sort  with time
+        //   sorter: (pageA, pageB) =>
+        //     new Date(pageB.frontmatter.date).getTime() -
+        //     new Date(pageA.frontmatter.date).getTime(),
+        //   layout: 'Timeline',
+        //   frontmatter: () => ({
+        //     title: 'Timeline',
+        //     sidebar: false,
+        //   }),
+        // },
       ],
       hotReload: true,
     }),

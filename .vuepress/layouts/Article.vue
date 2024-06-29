@@ -12,6 +12,16 @@ const articles = useBlogType('article')
       <main class="page">
         <ArticleList :items="articles.items" />
       </main>
+      <footer class="footer"> &copy; Nuage</footer>
     </template>
   </ParentLayout>
 </template>
+<style>
+.footer {
+  
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>

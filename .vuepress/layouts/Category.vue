@@ -29,8 +29,10 @@ const categoryMap = useBlogCategory('category')
 
         <ArticleList :items="categoryMap.currentItems ?? []" />
       </main>
+      <footer class="footer"> &copy; Nuage</footer>
     </template>
   </ParentLayout>
+  
 </template>
 
 <style lang="scss">
