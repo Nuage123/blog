@@ -1,0 +1,3 @@
+import comp from "D:/Develop/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/article2_graduation.html.vue"
+const data = JSON.parse("{\"path\":\"/posts/article2_graduation.html\",\"title\":\"再见，再见👋\",\"lang\":\"ZH-cn\",\"frontmatter\":{\"date\":\"2024-07-03T00:00:00.000Z\",\"category\":[\"日记\"]},\"headers\":[],\"git\":{\"updatedTime\":1720500080000,\"contributors\":[{\"name\":\"Nuage\",\"email\":\"745402527@qq.com\",\"commits\":1}]},\"filePathRelative\":\"posts/article2_graduation.md\",\"excerpt\":\"\\n<p>女子大生的神隐</p>\\n<!-- <img src=\\\"https://imgse.com/i/pkRiQRf\\\"> -->\\n<p><img src=\\\"https://s21.ax1x.com/2024/07/05/pkRiQRf.jpg\\\" alt=\\\"毕业照\\\"></p>\\n<p>人生海海，来日再会</p>\\n\"}")
+export { comp, data }
