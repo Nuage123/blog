@@ -1,16 +1,3 @@
 import comp from "D:/Develop/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/article2.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/article2.html\",\"title\":\"Article 2\",\"lang\":\"ZH-cn\",\"frontmatter\":{\"date\":\"2022-01-02T00:00:00.000Z\",\"category\":[\"CategoryA\"],\"tag\":[\"tag A\",\"tag B\"]},\"headers\":[{\"level\":2,\"title\":\"Heading 2\",\"slug\":\"heading-2\",\"link\":\"#heading-2\",\"children\":[{\"level\":3,\"title\":\"Heading 3\",\"slug\":\"heading-3\",\"link\":\"#heading-3\",\"children\":[]}]}],\"git\":{},\"filePathRelative\":\"posts/article2.md\",\"excerpt\":\"\\n<h2>Heading 2</h2>\\n<p>Here is the content.</p>\\n<h3>Heading 3</h3>\\n<p>Here is the content.</p>\\n\"}")
+const data = JSON.parse("{\"path\":\"/posts/article2.html\",\"title\":\"使用VuePress搭建BLOG\",\"lang\":\"ZH-cn\",\"frontmatter\":{\"date\":\"2024-07-09T00:00:00.000Z\",\"category\":[\"项目\"]},\"headers\":[{\"level\":2,\"title\":\"📓Vuepress介绍\",\"slug\":\"📓vuepress介绍\",\"link\":\"#📓vuepress介绍\",\"children\":[]},{\"level\":2,\"title\":\"🫱快速上手\",\"slug\":\"🫱快速上手\",\"link\":\"#🫱快速上手\",\"children\":[{\"level\":3,\"title\":\"部分目录介绍：\",\"slug\":\"部分目录介绍\",\"link\":\"#部分目录介绍\",\"children\":[]}]},{\"level\":2,\"title\":\"🏠Github部署\",\"slug\":\"🏠github部署\",\"link\":\"#🏠github部署\",\"children\":[]},{\"level\":2,\"title\":\"部署效果（本站）\",\"slug\":\"部署效果-本站\",\"link\":\"#部署效果-本站\",\"children\":[]}],\"git\":{\"updatedTime\":1720500884000,\"contributors\":[{\"name\":\"Nuage\",\"email\":\"745402527@qq.com\",\"commits\":1}]},\"filePathRelative\":\"posts/article2.md\",\"excerpt\":\"\\n<p>搭建个人站的想法其实已经有了很久，第一次买<strong>Angela Yu</strong>的<strong color=\\\"blue\\\">Web开发</strong>的时候已经有这个想法，当时有用html搭建本人的第一个非常简洁的个人站。因为之前学习了Vue框架，所以这次选择的是<strong>Vuepress</strong>搭建。</p>\\n<h2>📓Vuepress介绍</h2>\\n<p>VuePress 是一个以 Markdown 为中心的静态网站生成器。你可以使用 Markdown 来书写内容（如文档、博客等），然后 VuePress 会帮助你生成一个静态网站来展示它们。</p>\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
