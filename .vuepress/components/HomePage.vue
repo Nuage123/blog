@@ -11,6 +11,7 @@
         
 
         </main>
+
         <hr>
         <footer class="footer"> &copy; Nuage</footer>
       </template>
@@ -22,16 +23,15 @@
   
   <script>
 
-//  import Home from '@theme/Home.vue'
-// import Navbar from '@theme/Navbar.vue'
-  import HomeHeader from './HomeHeader.vue'; 
-  // import AboutMe from './AboutMe.vue';// Import the TypeWriter component
-//   import AboutMe from '@/components/AboutMe'
+
+import HomeHeader from './HomeHeader.vue'; 
+
 import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
   export default {
     name: 'HomePage',
   
     components:{
+   
       HomeHeader,
     ParentLayout,
     // AboutMe

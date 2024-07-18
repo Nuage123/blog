@@ -6,6 +6,7 @@ import Timeline from './layouts/Timeline.vue'
 import HomePage from './components/HomePage.vue'
 import ResumePage from './layouts/ResumePage.vue'
 import AboutPage from './layouts/AboutPage.vue'
+import ChatBot from './layouts/ChatBot.vue'
 import ElementPlus from 'element-plus';
 import 'element-plus/theme-chalk/index.css';
 // import VueTyperPlugin from 'vue-typer/dist/vue-typer'
@@ -20,7 +21,8 @@ export default defineClientConfig({
     Timeline,
     HomePage,
     AboutPage,
-    ResumePage
+    ResumePage,
+    ChatBot
   },
   enhance: ({ app, router, siteData }) => {
     app.component("HomePage", HomePage);

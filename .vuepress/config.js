@@ -24,10 +24,8 @@ export default defineUserConfig({
         text:'关于我👧',
         link:'/AboutPage'
       },
-      {
-        text:'项目💻',
-        link:'/Projects'
-      },
+    
+
       {
         text: '文章📓',
         link: '/article/',
@@ -36,8 +34,12 @@ export default defineUserConfig({
         text: '分类📚',
         link: '/category/',
       },
+      // {
+      //   text: '和我聊天📞',
+      //   link: '/ChatWithMe',
+      // },
       {
-        text:"📞联系我",
+        text:"和我聊聊📞",
         link:"/ContactMe"
       }
       // {
