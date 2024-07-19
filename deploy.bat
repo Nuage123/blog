@@ -1,7 +1,10 @@
+npm run docs:build
+
 git add .
 
 git commit -m 'updated'
 
 git push origin main
 
-git subtree push --prefix  .vuepress/dist/ origin gh-pages
+ git subtree push --prefix  .vuepress/dist/ origin gh-pages
+

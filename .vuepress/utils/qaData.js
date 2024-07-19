@@ -2,11 +2,15 @@
 export const qaData = [
     {
       question: "你好",
-      answer: "你好！有什么我可以帮助你的吗？",
+      answer: "你好👋有什么我可以帮助你的吗？",
     },
     { 
         question: "联系方式",
-        answer:"我的邮箱是745402527@qq.com"
+        answer:"我的邮箱是745402527@qq.com。我的微信是y_m990415。欢迎📞我。"
+    },
+    {
+      question:"遗憾",
+      answer:"对，我的人生中有很多遗憾，希望你不要让自己后悔。"
     },
     {  
         "question": "电影",  
@@ -22,7 +26,7 @@ export const qaData = [
       },  
       {  
         "question": "工作",  
-        "answer": "我目前在体制内工作。"  
+        "answer": "我还在等待入职。"  
       },  
       {  
         "question": "书籍",  

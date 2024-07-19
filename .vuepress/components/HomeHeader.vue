@@ -8,13 +8,22 @@
       <h1>
         I'M 
         <strong>小雯</strong>
+
+        
        
       </h1>
       <TypeWriter></TypeWriter>
+      <div style="margin: 20px;">
+      <audio controls ref="audio"  class="aud">
+    <source  src="../public/music/new boys.m4a" />
+  </audio>
+</div>
   </div>
     <div class="img">
       <img src="../public/images/profile.jpg" alt="">
     </div>
+    
+
     </div>
   </template>
   
@@ -32,7 +41,9 @@
       return {
         status: 'hidden',
       }
+      
     },
+  
    
     
   }

@@ -13,7 +13,12 @@
         </main>
 
         <hr>
-        <footer class="footer"> &copy; Nuage</footer>
+   
+        <footer class="footer">
+           &copy; Nuage
+           
+     
+          </footer>
       </template>
      
     </ParentLayout>
@@ -42,13 +47,20 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
     data() {
       return {
         status: 'hidden',
+        on:true
       }
     },
     mounted(){
       
     },
     methods: {
-      
+      handleClick(){
+        if(this.on==true){
+          this.on=false;
+        }else {
+          this.on =true
+        }
+      }
     },
   }
   </script>
