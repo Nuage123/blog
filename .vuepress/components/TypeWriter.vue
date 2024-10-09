@@ -12,7 +12,7 @@ export default {
       i: 0,
       j: 0,
       timer: 0,
-      strings: ['英专毕业', '转码失败人士'],
+      strings: ['英专毕业', '转码小白'],
       deleting: false
     }
   },
