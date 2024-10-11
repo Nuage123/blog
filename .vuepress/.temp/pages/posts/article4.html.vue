@@ -1,6 +1,5 @@
 <template><div><h1 id="自动化办公工具1-python-docx的使用-含tkinter" tabindex="-1"><a class="header-anchor" href="#自动化办公工具1-python-docx的使用-含tkinter"><span>自动化办公工具1-Python-docx的使用（含Tkinter)</span></a></h1>
-<p>在两份offer的犹疑中，没想到自己最终选了体制内的工作，内心其实有迷惑惘然的地方，但是依然需要保持精神的尊严。
-第一个月工作和想象中一样，简单但是琐碎。譬如将多份报告转换为ld期望的格式，又或者将报告第一页的留言进行修改，传统方式下会采取复制粘贴的方式。但是使用<strong>Python-Docx</strong>库可以<s>轻松（因为还在学习这个库的原因，所以写脚本其实花了一点时间）</s>，对word进行批量编辑，替代。效果请看最后。</p>
+<p>工作简单但是琐碎。譬如将多份报告转换为ld期望的格式，又或者将报告第一页的留言进行修改，传统方式下会采取复制粘贴的方式。但是使用<strong>Python-Docx</strong>库可以<s>轻松（因为还在学习这个库的原因，所以写脚本其实花了一点时间）</s>，对word进行批量编辑，替代。效果请看最后。</p>
 <h2 id="python-docx库" tabindex="-1"><a class="header-anchor" href="#python-docx库"><span>Python-docx库</span></a></h2>
 <h3 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍"><span>介绍</span></a></h3>
 <p>python-docx库 是一个用于创建和更新 Microsoft Word（.docx）文件的Python库
